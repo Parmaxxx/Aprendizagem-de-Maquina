@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
-df = pd.read_csv("./Csv/temperature.csv")
+df = pd.read_csv("../Csv/temperature.csv")
 
 x,y = df[['month']].values, df[['City']].values
 #print("X:\n",x)

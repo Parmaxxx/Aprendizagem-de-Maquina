@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("./Csv/temperature.csv")
+df = pd.read_csv("../Csv/temperature.csv")
 
 df.head(3)
 
